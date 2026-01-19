@@ -1,4 +1,5 @@
 
+
 import tkinter as tk
 from tkinter import filedialog, messagebox
 from pypdf import PdfWriter
@@ -123,4 +124,6 @@ class PDFMergerGUI:
 if __name__ == "__main__":
     root = tk.Tk()
     app = PDFMergerGUI(root)
-    root.mainloop()
+    root.mainloop().__annotations__
+
+
